@@ -1,0 +1,620 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessVPad 1.0\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2021-08-07 16:08+0800\n"
+"PO-Revision-Date: 2021-08-07 16:13+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ../../../globalPlugins/MathMlReader\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: __init__.py\n"
+"X-Poedit-SearchPath-1: dialogs.py\n"
+
+#: addon\globalPlugins\AccessVPad\TD.py:45
+msgid "Bottom"
+msgstr "到了底部"
+
+#: addon\globalPlugins\AccessVPad\TD.py:49
+msgid "Top"
+msgstr "已到頂端"
+
+#: addon\globalPlugins\AccessVPad\TD.py:53
+msgid "Left"
+msgstr "到了左端"
+
+#: addon\globalPlugins\AccessVPad\TD.py:57
+msgid "Right"
+msgstr "到了右端"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:225
+msgid "add window"
+msgstr "新增視窗"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:236
+msgid "cannot remove window"
+msgstr "無法移除視窗"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:239
+msgid "remove window"
+msgstr "移除視窗"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:262
+#, python-brace-format
+msgid "{number} of {total}"
+msgstr "{number} 之 {total}"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:285
+msgid "no action"
+msgstr "無動作"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:340
+#: addon\globalPlugins\AccessVPad\views.py:318
+msgid "insert new row at down"
+msgstr "於下方插入新列"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:342
+#: addon\globalPlugins\AccessVPad\views.py:314
+msgid "insert new row at up"
+msgstr "於上方插入新列"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:344
+#: addon\globalPlugins\AccessVPad\views.py:322
+msgid "insert new column at left"
+msgstr "於左側插入新行"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:346
+#: addon\globalPlugins\AccessVPad\views.py:326
+msgid "insert new column at right"
+msgstr "於右側插入新行"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:354
+#: addon\globalPlugins\AccessVPad\views.py:338
+msgid "delete row success"
+msgstr "刪除列成功"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:356
+#: addon\globalPlugins\AccessVPad\views.py:340
+msgid "cannot delete row"
+msgstr "無法刪除列"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:365
+#: addon\globalPlugins\AccessVPad\views.py:344
+msgid "delete column success"
+msgstr "刪除行成功"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:367
+#: addon\globalPlugins\AccessVPad\views.py:346
+msgid "cannot delete column"
+msgstr "無法刪除行"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:401
+#, python-brace-format
+msgid "row {row} column {column}"
+msgstr "列 {row} 行 {column}"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:403
+#, python-brace-format
+msgid "{row} row {column} column"
+msgstr "{row} 列 {column} 行"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:433
+#: addon\globalPlugins\AccessVPad\__init__.py:482
+#: addon\globalPlugins\AccessVPad\__init__.py:619
+msgid "Open file..."
+msgstr "開啟檔案..."
+
+#: addon\globalPlugins\AccessVPad\__init__.py:453
+#: addon\globalPlugins\AccessVPad\__init__.py:502
+msgid "Save file..."
+msgstr "儲存檔案..."
+
+#: addon\globalPlugins\AccessVPad\__init__.py:590
+#: addon\globalPlugins\AccessVPad\__init__.py:595
+#: addon\globalPlugins\AccessVPad\__init__.py:798
+#: addon\globalPlugins\AccessVPad\__init__.py:803
+msgid "{} by {}"
+msgstr "{} 從 {}"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:639
+msgid "{} edge in {} edge out"
+msgstr "{} 入邊 {} 出邊"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:641
+msgid "{} node {} edge"
+msgstr "{} 節點 {} 邊"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:723
+#: addon\globalPlugins\AccessVPad\__init__.py:730
+msgid "step{}"
+msgstr "step{}"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:812
+msgid "enter node label"
+msgstr "輸入節點標籤"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:830
+msgid "add node {}"
+msgstr "新增節點 {}"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:848
+msgid "add edge {}"
+msgstr "新增邊 {}"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:861
+msgid "Object review"
+msgstr "物件檢閱"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:880
+msgid "view AccessVPad content"
+msgstr "檢視 AccessVPad 內容"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:891
+msgid "pad window is opened"
+msgstr "pad 視窗已打開"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: addon\globalPlugins\AccessVPad\views.py:75 buildVars.py:23
+msgid "AccessVPad"
+msgstr "AccessVPad"
+
+#: addon\globalPlugins\AccessVPad\views.py:86
+msgid "&Menu"
+msgstr "功能表(&M)"
+
+#: addon\globalPlugins\AccessVPad\views.py:87
+msgid "&Exit"
+msgstr "離開(&E)"
+
+#: addon\globalPlugins\AccessVPad\views.py:87
+msgid "Terminate the program"
+msgstr "終止程式"
+
+#: addon\globalPlugins\AccessVPad\views.py:93
+msgid "pad"
+msgstr "pad"
+
+#: addon\globalPlugins\AccessVPad\views.py:127
+msgid "New pad"
+msgstr "新 pad"
+
+#: addon\globalPlugins\AccessVPad\views.py:133
+msgid "&Type:"
+msgstr "類型(&T)："
+
+#: addon\globalPlugins\AccessVPad\views.py:164
+msgid "New node"
+msgstr "新節點"
+
+#: addon\globalPlugins\AccessVPad\views.py:169
+#: addon\globalPlugins\AccessVPad\views.py:194
+msgid "&Label:"
+msgstr "標籤(&L)："
+
+#: addon\globalPlugins\AccessVPad\views.py:187
+msgid "New edge"
+msgstr "新邊"
+
+#: addon\globalPlugins\AccessVPad\views.py:197
+msgid "&Source:"
+msgstr "來源(&S)："
+
+#: addon\globalPlugins\AccessVPad\views.py:201
+msgid "&Target:"
+msgstr "目的(&T)："
+
+#: addon\globalPlugins\AccessVPad\views.py:219
+msgid "enter cell value"
+msgstr "輸入儲存格值"
+
+#: addon\globalPlugins\AccessVPad\views.py:244
+msgid "&Add"
+msgstr "加入(&A)"
+
+#: addon\globalPlugins\AccessVPad\views.py:248
+msgid "&Up Row"
+msgstr "上方列(&U)"
+
+#: addon\globalPlugins\AccessVPad\views.py:253
+msgid "&Down Row"
+msgstr "下方列(&D)"
+
+#: addon\globalPlugins\AccessVPad\views.py:258
+msgid "&Left Column"
+msgstr "左側行(&L)"
+
+#: addon\globalPlugins\AccessVPad\views.py:263
+msgid "&Right Column"
+msgstr "右側行(&L)"
+
+#: addon\globalPlugins\AccessVPad\views.py:270
+msgid "&Edit"
+msgstr "編輯(&E)"
+
+#: addon\globalPlugins\AccessVPad\views.py:275
+msgid "&Delete"
+msgstr "刪除(&D)"
+
+#: addon\globalPlugins\AccessVPad\views.py:279
+msgid "&Row"
+msgstr "列(&R)"
+
+#: addon\globalPlugins\AccessVPad\views.py:284
+msgid "&Column"
+msgstr "行(&C)"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid "Allows write advanced logical data structure by keyboard"
+msgstr "Allows write advanced logical data structure by keyboard"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "&Right Row"
+#~ msgstr "到了右端"
+
+#~ msgid "TDPad"
+#~ msgstr "TDPad"
+
+#~ msgid "Dismiss the TDPad document"
+#~ msgstr "關閉 TDPad 文件"
+
+#~ msgid "Message the TDPad document"
+#~ msgstr "訊息 TDPad 文件"
+
+#~ msgid "Screen review"
+#~ msgstr "畫面檢閱"
+
+#~ msgid "Access8Math interaction window"
+#~ msgstr "Access8Math 互動視窗"
+
+#~ msgid "copy"
+#~ msgstr "複製"
+
+#~ msgid "enter interaction mode"
+#~ msgstr "進入互動模式"
+
+#~ msgid "not move"
+#~ msgstr "無移動"
+
+#~ msgid "copy mathml"
+#~ msgstr "複製 mathml"
+
+#~ msgid "snapshot"
+#~ msgstr "快照"
+
+#~ msgid "Insert math object"
+#~ msgstr "插入數學物件"
+
+#~ msgid "Delete math object"
+#~ msgstr "刪除數學物件"
+
+#~ msgid "Show Access8Math interaction window"
+#~ msgstr "顯示 Access8Math 互動視窗"
+
+#~ msgid "Access8Math interaction window already showed"
+#~ msgstr "Access8Math 互動視窗已經顯示"
+
+#~ msgid "&General settings..."
+#~ msgstr "一般設定(&G)"
+
+#~ msgid "&Rule settings..."
+#~ msgstr "規則設定(&R)"
+
+#~ msgid "&unicode dictionary..."
+#~ msgstr "&unicode 字典..."
+
+#~ msgid "&math rule..."
+#~ msgstr "數學規則(&M)"
+
+#~ msgid "&New language adding..."
+#~ msgstr "加入新語言(&N)"
+
+#~ msgid "&About..."
+#~ msgstr "關於(&A)"
+
+#~ msgid "Change mathml provider"
+#~ msgstr "更改閱讀程式"
+
+#, python-format
+#~ msgid "mathml provider change to %s"
+#~ msgstr "mathml閱讀程式更改為 %s"
+
+#~ msgid "Shows the Access8Math settings dialog."
+#~ msgstr "顯示 Access8Math 設定對話框."
+
+#~ msgid ""
+#~ "Access8Math\n"
+#~ "Version: 2.5\n"
+#~ "URL: https://addons.nvda-project.org/addons/access8math.en.html\n"
+#~ "Copyright (C) 2017-2020 Access8Math Contributors\n"
+#~ "Access8Math is covered by the GNU General Public License (Version 2). You are free to share or change this software in any way you like as long as it is accompanied by the license and you make all source code available to anyone who wants it. This applies to both original and modified copies of this software, plus any derivative works.\n"
+#~ "It can be viewed online at: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n"
+#~ "Access8Math has been sponsored by \"Taiwan Visually Impaired People Association\"(accessibility@twvip.org) in 2018~2019, hereby express our sincere appreciation.\n"
+#~ "If you feel this add-on is helpful, please don't hesitate to give support to \"Taiwan Visually Impaired People Association\" and authors."
+#~ msgstr ""
+#~ "Access8Math\n"
+#~ "Version: 2.5\n"
+#~ "URL: https://addons.nvda-project.org/addons/access8math.en.html\n"
+#~ "Copyright (C) 2017-2020 Access8Math Contributors\n"
+#~ "Access8Math 受 GNU 通用公共授權條款第二版所規範。您可以自由分享或以任何方式修改本軟體，前提是發布時必需包含該許可證，同時公開原版與修改版的原始碼，並加上任何用本軟體的原始碼所創造的軟體。\n"
+#~ "此項許可證可以在此網站查看：https：//www.gnu.org/licenses/old-licenses/gpl-2.0.html\n"
+#~ "Access8Math 於 2018~2019 年受臺灣視障協會(accessibility@twvip.org)支持開發，特此深表感謝。\n"
+#~ "若您覺得此項附加元件有所助益，請不吝給予我們與臺灣視障協會支持。"
+
+#~ msgid "About Access8Math"
+#~ msgstr "關於 Access8Math"
+
+#~ msgid "General Settings"
+#~ msgstr "一般設定"
+
+#~ msgid "showing Access8Math interaction window when entering interaction mode"
+#~ msgstr "當進入互動模式時，顯示 Access8Math 互動視窗"
+
+#~ msgid "Analyze mathematical meaning of content"
+#~ msgstr "分析內容的數學意義"
+
+#~ msgid "Read defined meaning in dictionary"
+#~ msgstr "讀出字典有定義的意義"
+
+#~ msgid "Read of auto-generated meaning"
+#~ msgstr "讀出自動產生的意義"
+
+#~ msgid "&Language:"
+#~ msgstr "語言(&L)"
+
+#~ msgid "&Item interval time:"
+#~ msgstr "項目間隔時間(&I)"
+
+#~ msgid "Rule Settings"
+#~ msgstr "規則設定"
+
+#~ msgid "Simplified subscript and superscript"
+#~ msgstr "簡化下標與上標"
+
+#~ msgid "Simplified subscript"
+#~ msgstr "簡化下標"
+
+#~ msgid "Simplified superscript"
+#~ msgstr "簡化上標"
+
+#~ msgid "Simplified underscript and overscript"
+#~ msgstr "簡化正下標與正上標"
+
+#~ msgid "Simplified underscript"
+#~ msgstr "簡化正下標"
+
+#~ msgid "Simplified overscript"
+#~ msgstr "簡化正上標"
+
+#~ msgid "Simplified fraction"
+#~ msgstr "簡化分數"
+
+#~ msgid "Simplified square root"
+#~ msgstr "簡化平方根"
+
+#~ msgid "Power"
+#~ msgstr "指數"
+
+#~ msgid "Square power"
+#~ msgstr "平方指數"
+
+#~ msgid "Cube power"
+#~ msgstr "立方指數"
+
+#~ msgid "Set"
+#~ msgstr "集合"
+
+#~ msgid "Absolute value"
+#~ msgstr "絕對值"
+
+#~ msgid "Matrix"
+#~ msgstr "矩陣"
+
+#~ msgid "Determinant"
+#~ msgstr "行列式"
+
+#~ msgid "Integer and fraction"
+#~ msgstr "帶分數"
+
+#~ msgid "Add Symbol"
+#~ msgstr "加入符號"
+
+#~ msgid "Symbol:"
+#~ msgstr "符號:"
+
+#, python-format
+#~ msgid "unicode dictionary (%s)"
+#~ msgstr "unicode 字典 (%s)"
+
+#~ msgid "&Symbols"
+#~ msgstr "符號(&S)"
+
+#~ msgid "Symbol"
+#~ msgstr "符號"
+
+#~ msgid "Replacement"
+#~ msgstr "替代文字"
+
+#~ msgid "Change selected symbol"
+#~ msgstr "修改選擇符號"
+
+#~ msgid "&Replacement"
+#~ msgstr "替代文字(&R)"
+
+#~ msgid "Re&move"
+#~ msgstr "移除(&M)"
+
+#~ msgid "&Recover default"
+#~ msgstr "還原預設值(&R)"
+
+#~ msgid "&Import"
+#~ msgstr "匯入(&I)"
+
+#~ msgid "Exp&ort"
+#~ msgstr "匯出(&o)"
+
+#, python-format
+#~ msgid "Symbol \"%s\" is already present."
+#~ msgstr "符號 \"%s\" 已存在。"
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgid "Export file..."
+#~ msgstr "匯出檔案..."
+
+#~ msgid "Edit Math Rule Entry"
+#~ msgstr "編輯數學規則條目"
+
+#~ msgid "&description"
+#~ msgstr "描述(&d)"
+
+#~ msgid "description"
+#~ msgstr "描述"
+
+#~ msgid "Serialized ordering"
+#~ msgstr "序列化順序"
+
+#, python-format
+#~ msgid "Ordering %d"
+#~ msgstr "順序 %d"
+
+#~ msgid "Child"
+#~ msgstr "子節點"
+
+#, python-format
+#~ msgid "Before item text &%d"
+#~ msgstr "項目前文字 &%d"
+
+#, python-format
+#~ msgid "After item text &%d"
+#~ msgstr "項目後文字 &%d"
+
+#, python-format
+#~ msgid "Start text &%d"
+#~ msgstr "開始文字 &%d"
+
+#, python-format
+#~ msgid "End text &%d"
+#~ msgstr "結束文字 &%d"
+
+#, python-format
+#~ msgid "&Interval text &%d"
+#~ msgstr "項目間文字 &%d"
+
+#~ msgid "Child role"
+#~ msgstr "子節點角色"
+
+#, python-format
+#~ msgid "&Child %d meaning"
+#~ msgstr "子節點 %d 意義(&C)"
+
+#, python-format
+#~ msgid "Regular Expression error: \"%s\"."
+#~ msgstr "正規表達式錯誤： \"%s\"。"
+
+#~ msgid "Dictionary Entry Error"
+#~ msgstr "字典條目錯誤"
+
+#, python-format
+#~ msgid "math rule (%s)"
+#~ msgstr "數學規則 (%s)"
+
+#~ msgid "&Mathrules"
+#~ msgstr "數學規則(&M)"
+
+#~ msgid "Rule"
+#~ msgstr "規則"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "E&xample"
+#~ msgstr "範例"
+
+#~ msgid "New language adding"
+#~ msgstr "新語言加入"
+
+#~ msgid "&Select"
+#~ msgstr "選擇(&S)"
+
+#~ msgid "&Unselect"
+#~ msgstr "取消選擇(&U)"
+
+#~ msgid "unicode dictionary"
+#~ msgstr "unicode 字典"
+
+#~ msgid "math rule"
+#~ msgstr "數學規則"
+
+#~ msgid "OK"
+#~ msgstr "確定"
+
+#~ msgid "For the new language to add, NVDA must be restarted. Press enter to restart NVDA, or cancel to exit at a later time."
+#~ msgstr "為了讓新語言加入， NVDA 必需重新啟動。請按Enter鍵，或按取消稍後離開。"
+
+#~ msgid "New language add"
+#~ msgstr "新語言加入"
+
+#~ msgid "Write AsciiMath Entry"
+#~ msgstr "輸寫 AsciiMath 條目"
+
+#~ msgid "Write Latex Entry"
+#~ msgstr "輸寫 Latex 條目"
+
+#~ msgid "build-in"
+#~ msgstr "內建"
+
+#~ msgid "User default"
+#~ msgstr "使用者預設值"
+
+#~ msgid "Allows access math content written by MathML"
+#~ msgstr "Allows access math content written by MathML"
+
+#~ msgid "Export(&O)"
+#~ msgstr "匯出(&O)"
+
+#~ msgid "show menu"
+#~ msgstr "顯示功能表"
+
+#~ msgid "&Certain"
+#~ msgstr "選定(&C)"
+
+#~ msgid "&Uncertain"
+#~ msgstr "取消選定(&U)"
+
+#~ msgid "&About"
+#~ msgstr "關於(&A)"
+
+#~ msgid "Information about this program"
+#~ msgstr "關於程式資訊"
+
+#~ msgid "&asciimath..."
+#~ msgstr "&asciimath..."
+
+#~ msgid "&latex..."
+#~ msgstr "&latex..."
+
+#~ msgid "Access8Math language change to %s"
+#~ msgstr "Access8Math語言更改為 %s"
+
+#~ msgid "Change next language"
+#~ msgstr "切換至下個語言"
+
+#~ msgid "Change previous language"
+#~ msgstr "切換至上個語言"
+
+#~ msgid "Read the meaning of auto-generated"
+#~ msgstr "讀出自動生成的意義"
+
+#~ msgid "Report dictionary defination meaning"
+#~ msgstr "讀出已字典定義的意義"
