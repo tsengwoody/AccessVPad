@@ -1,44 +1,65 @@
-# AccessVPad 說明
+# AccessVPad - ReadMe
 
-此附加元件提供虛擬二維平面讀寫功能，概念發想是以網格為底進行延伸，並使用輸入鍵盤操作與輸出語音回應來設計各種互動功能。一般文書編輯器只能橫式書寫文字字元的特性，使得視障者不易閱讀與表達數學的二維計算過程，導致難以與他人進行有效溝通與學習。例如單位換算單元中，使用二維的直式計算即可很直覺的學習單位換算的進位概念；多項式單元中的加減內容，使用二維的紀錄方式能有助於項次對齊的概念學習與有效率的計算。，此附加元件可用於解決前述視障者在直式概念學習情境中無法以視覺直向對齊的問題。
+This addon provides a virtual 2 dimensional reading/writing pad, which derives from the concept of grid, and equipped with a variety of interactive functions via keyboard input and speech output. The current available text editor could only be edited in a letter-based, horizontal direction, which limits the readability and the expression in mathematics, especially the (2 dimensional) calculating procedure in vertical form, and hence makes communication and teaching inefficient for visually impaired people.
 
-## 功能
+This addon aims to solve the limitation of the current available text editors by enabling calculations where (visual) vertical alignment is required (to be aligned vertically). For instance, in occasions of calculating unit conversion or polynomials, the 2 dimensional vertical calculator allows users to learn and express the arithmetic concept of carry or any occasions where vertical alignment could help to be delivered in a more intuitive and efficient way.
 
-NVDA+alt+d 可打開 AccessVPad 視窗。
+## Feature
 
-當 AccessVPad 內無任何面板資料時，按下 pad 按鈕會顯示新增面板，選擇類型後按下確定即會產生一個可書寫的面板視窗。此視窗為非視覺視窗，可透過鍵盤輸入操作並以語音輸出回應。
+Press NVDA+Alt+D to activate the AccessVPad control panel.
 
-面板目前分兩種類型，皆為二維網格結構，差異為儲存格是否可寫入多個字元。 plane 為每個儲存格僅能寫入一個字元，而 table 則能寫入多個字元。 plane 適合使用在需完整字元視覺對齊的情境； table 則適合使用在…的情境
+When there is no open tab in the panel, press the pad button to add a new tab, after choosing the type of the new panel, press enter to create a virtual writing tab. The virtual writing tab could be input via keyboard and output through speech.
 
-## 一般指令鍵
+There are currently 2 types of panels available, Plane and Table, both are grid-based structures. The difference is whether it could be input with multiple letters in one cell. Plane could only allow one letter in each cell, whereas Table could deal with multiple letters in a cell. Hence, Plane is ideal for situations when visual alignment is based on letters, e.g. vertical addition or vertical multiplication, while Table is suitable for situations where visual alignment should be based on blocks, e.g. polynomial or determinant calculation.
 
-切換視窗指令：指令鍵參考常見多視窗應用程式普遍使用之鍵盤指令設計
+### For Switching between window tabs: in reference to general keyboard shortcuts for multiple window application.
 
-*	control+page up/control+shift+tab：切換到上一個視窗，當無上一個視窗時會回到最後一個視窗
-*	control+page down/control+tab：切換到下一個視窗，當無下一個視窗時會回到第一個視窗
-*	control+數字 N(1~9)：切換到第 N 個視窗
+*	Ctrl + Up Arrow / Ctrl + Shift + tab : Switch backward one tab to the previous tab. When there is no previous tab, switch backward to the latest tab.
+*	Ctrl + Down Arrow / Ctrl +tab: Switch forward one tab to the next tab, when there is no next tab, switch forward to the very first tab.
+*	Ctrl + Num key (1~9): Switch to the tab according to ordinal number.
 
-移動：當移動到新的儲存格時會報讀該儲存格的內容
+### Move: Read out the content when moving to a new cell.
 
-*	上方向鍵：將游標位置往上移動（行數不變，列數 -1）
-*	下方向鍵：將游標位置往下移動（行數不變，列數 +1）
-*	左方向鍵：將游標位置往左移動（列數不變，行數 -1）
-*	右方向鍵：將游標位置往右移動（列數不變，行數 +1）
-*	home：將游標位置移動到同列最左側的儲存格
-*	end：將游標位置移動到同列最右側的儲存格
-*	shift+home：將游標位置移動到同行最上方的儲存格
-*	shift+end：將游標位置移動到同行最下方的儲存格
+*	Up Arrow: Move the cursor one distance up. (column -1; row number stays the same)
+*	Down Arrow: Move the cursor one distance down. (column +1; row number stays the same)
+*	Left Arrow: Move the cursor one distance left. (column number stays the same; row -1)
+*	Right Arrow: Move the cursor one distance right (column number stays the same; row+1)
+*	home: Move the cursor to the leftmost cell in the same row.* end: Move the cursor to the rightmost cell in the same row.
+*	shift+home: Move the cursor to the very top cell in the same column.
+*	shift+end: Move the cursor to the bottom cell in the same column.
 
-更新：改變儲存格內容、新增或移除行列數、新增或移除視窗
+### Update: To modify the content in a cell; to add/delete a column/row; to add/delete a tab
 
-*	英文或數字鍵：於游標位置寫入輸入的字元
-*	alt+上方向鍵：於游標位置上方插入新列
-*	alt+下方向鍵：於游標位置下方插入新列
-*	alt+左方向鍵：於游標位置左側插入新行
-*	alt+右方向鍵：於游標位置右側插入新行
-*	alt+delete：刪除游標位置所在的列
-*	alt+shift+delete：刪除游標位置所在的行
-*	control+n：開啟新增一個面板視窗
-*	control+o：開啟舊檔，從 csv 檔讀入資料
-*	control+s：儲存檔案，將資料輸出成 csv 檔
-*	control+w：關閉刪除當前面板視窗
+*	EN or Num key: To input content from when the cursor locates.
+*	Alt + Up Arrow: To insert a new row above the cursor.
+*	Alt + Down Arrow: To insert a new row below the cursor.
+*	Alt + Left Arrow: To insert a column at the left side of the cursor.
+*	Alt + Right Arrow: To insert a column at the right side of the cursor.
+*	Alt + delete: To delete the row of the current cursor.
+*	Alt + shift + delete: To delete the column of the current cursor.
+*	Ctrl + n: To add a new tab.
+*	Ctrl + o: To open a csv file on the computer.
+*	Ctrl + s: To save and export the file in csv format.
+*	Ctrl + w: To close the current tab.
+
+### Read
+
+*	Num 1~9: Read out the content by line/word/character unit .
+*	NVDA + Num delete: Read out the column/row number of the current cell. Double click to read out the total column/row number of the total range.
+
+### 圖形介面選單
+AccessVPad 的圖形介面集中於工具->AccessVPad選單中
+* Pad：與 NVDA+alt+d 相同打開 AccessVPad 視窗
+* Browser：打開瀏覽器進行同步檢視當前面版視窗內容### Picture Platform Options
+
+The graphical interface of AccessVPad is concentrated in the Tools->AccessVPad menu
+
+Pad: Press NVDA+Alt+D to activate the AccessVPad control panel.
+
+Browser: Open browser to sync view the current tab in AccessVPad.
+
+ Settings：
+
+*	Adjust the style of page on browser:
+	*	Show border of the cell
+	*	Hightlight color of the cell pointed to by cursor

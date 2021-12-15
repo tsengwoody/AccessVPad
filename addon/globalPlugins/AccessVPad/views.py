@@ -1,13 +1,27 @@
 import addonHandler
+import globalVars
 import wx
 
 from gui import guiHelper
 
 addonHandler.initTranslation()
 
+def add_pad(parent):
+	with PadAddDialog(parent=parent) as padAddDialog:
+		if padAddDialog.ShowModal() == wx.ID_OK:
+			new_type = padAddDialog.GetType()
+			if new_type == "plane":
+				globalVars.rootModel.add_plane_window()
+			elif new_type == "table":
+				globalVars.rootModel.add_table_window()
+			elif new_type == "tree":
+				globalVars.rootModel.add_tree_window()
+			elif new_type == "graph":
+				globalVars.rootModel.add_graph_window()
+
 class GenericFrame(wx.Frame):
 	def __init__(self, *args, **kwargs):
-		super(GenericFrame, self).__init__(*args, **kwargs)
+		super().__init__(*args, **kwargs)
 		self.buttons = []
 
 		self.CreateStatusBar() # A StatusBar in the bottom of the window
@@ -73,16 +87,14 @@ class GenericFrame(wx.Frame):
 		return button
 
 class MainFrame(GenericFrame):
-	def __init__(self, rootModel):
-		self.obj = rootModel
+	def __init__(self):
 		title = _("AccessVPad")
-		super(MainFrame, self).__init__(wx.GetApp().TopWindow, title=title)
+		super().__init__(wx.GetApp().TopWindow, title=title)
 		self.Bind(wx.EVT_CLOSE, self.OnClose)
 
 	def OnClose(self, event):
 		self.Destroy()
-		global main_frame
-		main_frame = None
+		globalVars.mainFrame = None
 
 	def menuData(self):
 		return [
@@ -99,24 +111,11 @@ class MainFrame(GenericFrame):
 	def OnExit(self, event):
 		self.OnClose()
 
-	def add_pad(self):
-		with PadAddDialog(parent=self) as padAddDialog:
-			if padAddDialog.ShowModal() == wx.ID_OK:
-				new_type = padAddDialog.GetType()
-				if new_type == "plane":
-					self.obj.add_plane_window()
-				elif new_type == "table":
-					self.obj.add_table_window()
-				elif new_type == "tree":
-					self.obj.add_tree_window()
-				elif new_type == "graph":
-					self.obj.add_graph_window()
-
 	def OnPad(self, event):
-		if self.obj.active_window:
-			self.obj.setFocus()
+		if globalVars.rootModel.active_window:
+			globalVars.rootModel.setFocus()
 		else:
-			wx.CallAfter(self.add_pad)
+			wx.CallAfter(add_pad, self)
 
 class PadAddDialog(wx.Dialog):
 	TYPE_CHOICES = {
@@ -330,7 +329,7 @@ class TDBaseMenu(wx.Menu):
 
 	def dialog_insert(self, event):
 		def show(event):
-			with InsertCellDialog(parent=main_frame, value=self.data.pointcell.value) as entryDialog:
+			with InsertCellDialog(parent=globalVars.mainFrame, value=self.data.pointcell.value) as entryDialog:
 				if entryDialog.ShowModal() == wx.ID_OK:
 					self.data.pointcell.value = entryDialog.GetValue()
 

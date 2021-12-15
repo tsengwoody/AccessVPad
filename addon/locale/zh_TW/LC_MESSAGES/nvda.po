@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: AccessVPad 1.0\n"
+"Project-Id-Version: AccessVPad 1.2\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2021-08-07 16:08+0800\n"
-"PO-Revision-Date: 2021-08-07 16:13+0800\n"
+"POT-Creation-Date: 2021-12-14 19:51+0800\n"
+"PO-Revision-Date: 2021-12-14 19:52+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -16,237 +16,279 @@ msgstr ""
 "X-Poedit-SearchPath-0: __init__.py\n"
 "X-Poedit-SearchPath-1: dialogs.py\n"
 
-#: addon\globalPlugins\AccessVPad\TD.py:45
-msgid "Bottom"
-msgstr "到了底部"
-
-#: addon\globalPlugins\AccessVPad\TD.py:49
-msgid "Top"
-msgstr "已到頂端"
-
-#: addon\globalPlugins\AccessVPad\TD.py:53
-msgid "Left"
-msgstr "到了左端"
-
-#: addon\globalPlugins\AccessVPad\TD.py:57
-msgid "Right"
-msgstr "到了右端"
-
-#: addon\globalPlugins\AccessVPad\__init__.py:225
+#: addon\globalPlugins\AccessVPad\RootModel.py:239
 msgid "add window"
 msgstr "新增視窗"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:236
+#: addon\globalPlugins\AccessVPad\RootModel.py:250
 msgid "cannot remove window"
 msgstr "無法移除視窗"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:239
+#: addon\globalPlugins\AccessVPad\RootModel.py:254
 msgid "remove window"
 msgstr "移除視窗"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:262
+#: addon\globalPlugins\AccessVPad\RootModel.py:277
 #, python-brace-format
 msgid "{number} of {total}"
 msgstr "{number} 之 {total}"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:285
+#: addon\globalPlugins\AccessVPad\RootModel.py:301
 msgid "no action"
 msgstr "無動作"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:340
-#: addon\globalPlugins\AccessVPad\views.py:318
+#: addon\globalPlugins\AccessVPad\RootModel.py:362
+#: addon\globalPlugins\AccessVPad\views.py:320
 msgid "insert new row at down"
 msgstr "於下方插入新列"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:342
-#: addon\globalPlugins\AccessVPad\views.py:314
+#: addon\globalPlugins\AccessVPad\RootModel.py:364
+#: addon\globalPlugins\AccessVPad\views.py:316
 msgid "insert new row at up"
 msgstr "於上方插入新列"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:344
-#: addon\globalPlugins\AccessVPad\views.py:322
+#: addon\globalPlugins\AccessVPad\RootModel.py:366
+#: addon\globalPlugins\AccessVPad\views.py:324
 msgid "insert new column at left"
 msgstr "於左側插入新行"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:346
-#: addon\globalPlugins\AccessVPad\views.py:326
+#: addon\globalPlugins\AccessVPad\RootModel.py:368
+#: addon\globalPlugins\AccessVPad\views.py:328
 msgid "insert new column at right"
 msgstr "於右側插入新行"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:354
-#: addon\globalPlugins\AccessVPad\views.py:338
+#: addon\globalPlugins\AccessVPad\RootModel.py:376
+#: addon\globalPlugins\AccessVPad\views.py:340
 msgid "delete row success"
 msgstr "刪除列成功"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:356
-#: addon\globalPlugins\AccessVPad\views.py:340
+#: addon\globalPlugins\AccessVPad\RootModel.py:378
+#: addon\globalPlugins\AccessVPad\views.py:342
 msgid "cannot delete row"
 msgstr "無法刪除列"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:365
-#: addon\globalPlugins\AccessVPad\views.py:344
+#: addon\globalPlugins\AccessVPad\RootModel.py:387
+#: addon\globalPlugins\AccessVPad\views.py:346
 msgid "delete column success"
 msgstr "刪除行成功"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:367
-#: addon\globalPlugins\AccessVPad\views.py:346
+#: addon\globalPlugins\AccessVPad\RootModel.py:389
+#: addon\globalPlugins\AccessVPad\views.py:348
 msgid "cannot delete column"
 msgstr "無法刪除行"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:401
+#: addon\globalPlugins\AccessVPad\RootModel.py:423
 #, python-brace-format
 msgid "row {row} column {column}"
 msgstr "列 {row} 行 {column}"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:403
+#: addon\globalPlugins\AccessVPad\RootModel.py:425
 #, python-brace-format
 msgid "{row} row {column} column"
 msgstr "{row} 列 {column} 行"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:433
-#: addon\globalPlugins\AccessVPad\__init__.py:482
-#: addon\globalPlugins\AccessVPad\__init__.py:619
+#: addon\globalPlugins\AccessVPad\RootModel.py:471
+#: addon\globalPlugins\AccessVPad\RootModel.py:522
+#: addon\globalPlugins\AccessVPad\RootModel.py:661
 msgid "Open file..."
 msgstr "開啟檔案..."
 
-#: addon\globalPlugins\AccessVPad\__init__.py:453
-#: addon\globalPlugins\AccessVPad\__init__.py:502
+#: addon\globalPlugins\AccessVPad\RootModel.py:492
+#: addon\globalPlugins\AccessVPad\RootModel.py:543
 msgid "Save file..."
 msgstr "儲存檔案..."
 
-#: addon\globalPlugins\AccessVPad\__init__.py:590
-#: addon\globalPlugins\AccessVPad\__init__.py:595
-#: addon\globalPlugins\AccessVPad\__init__.py:798
-#: addon\globalPlugins\AccessVPad\__init__.py:803
+#: addon\globalPlugins\AccessVPad\RootModel.py:631
+#: addon\globalPlugins\AccessVPad\RootModel.py:636
+#: addon\globalPlugins\AccessVPad\RootModel.py:840
+#: addon\globalPlugins\AccessVPad\RootModel.py:845
 msgid "{} by {}"
 msgstr "{} 從 {}"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:639
+#: addon\globalPlugins\AccessVPad\RootModel.py:681
 msgid "{} edge in {} edge out"
 msgstr "{} 入邊 {} 出邊"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:641
+#: addon\globalPlugins\AccessVPad\RootModel.py:683
 msgid "{} node {} edge"
 msgstr "{} 節點 {} 邊"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:723
-#: addon\globalPlugins\AccessVPad\__init__.py:730
+#: addon\globalPlugins\AccessVPad\RootModel.py:765
+#: addon\globalPlugins\AccessVPad\RootModel.py:772
 msgid "step{}"
 msgstr "step{}"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:812
+#: addon\globalPlugins\AccessVPad\RootModel.py:855
 msgid "enter node label"
 msgstr "輸入節點標籤"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:830
+#: addon\globalPlugins\AccessVPad\RootModel.py:874
 msgid "add node {}"
 msgstr "新增節點 {}"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:848
+#: addon\globalPlugins\AccessVPad\RootModel.py:893
 msgid "add edge {}"
 msgstr "新增邊 {}"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:861
-msgid "Object review"
-msgstr "物件檢閱"
+#: addon\globalPlugins\AccessVPad\TD.py:49
+msgid "Bottom"
+msgstr "到了底部"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:880
-msgid "view AccessVPad content"
-msgstr "檢視 AccessVPad 內容"
+#: addon\globalPlugins\AccessVPad\TD.py:53
+msgid "Top"
+msgstr "已到頂端"
 
-#: addon\globalPlugins\AccessVPad\__init__.py:891
-msgid "pad window is opened"
-msgstr "pad 視窗已打開"
+#: addon\globalPlugins\AccessVPad\TD.py:57
+msgid "Left"
+msgstr "到了左端"
+
+#: addon\globalPlugins\AccessVPad\TD.py:61
+msgid "Right"
+msgstr "到了右端"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:89
+msgid "&Pad..."
+msgstr "&Pad..."
+
+#: addon\globalPlugins\AccessVPad\__init__.py:95
+msgid "&Browser..."
+msgstr "&Browser..."
+
+#: addon\globalPlugins\AccessVPad\__init__.py:101
+msgid "&Settings..."
+msgstr "設定(&S)..."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
-#: addon\globalPlugins\AccessVPad\views.py:75 buildVars.py:23
+#: addon\globalPlugins\AccessVPad\__init__.py:105
+#: addon\globalPlugins\AccessVPad\views.py:91 buildVars.py:23
 msgid "AccessVPad"
 msgstr "AccessVPad"
 
-#: addon\globalPlugins\AccessVPad\views.py:86
+#: addon\globalPlugins\AccessVPad\__init__.py:122
+msgid "view AccessVPad content"
+msgstr "檢視 AccessVPad 內容"
+
+#: addon\globalPlugins\AccessVPad\__init__.py:144
+msgid "pad window is opened"
+msgstr "pad 視窗已打開"
+
+#. Translators: Title of the Access8MathDialog.
+#: addon\globalPlugins\AccessVPad\dialogs.py:17
+msgid "Settings"
+msgstr "設定"
+
+#: addon\globalPlugins\AccessVPad\dialogs.py:23
+msgid "Show border of the cell"
+msgstr "顯示儲存格的邊框"
+
+#: addon\globalPlugins\AccessVPad\dialogs.py:26
+msgid "Hightlight color of the cell pointed to by cursor:"
+msgstr "游標指向單元格的突出顯示顏色"
+
+#: addon\globalPlugins\AccessVPad\dialogs.py:28
+msgid "red"
+msgstr "紅"
+
+#: addon\globalPlugins\AccessVPad\dialogs.py:29
+msgid "yallow"
+msgstr "黃"
+
+#: addon\globalPlugins\AccessVPad\dialogs.py:30
+msgid "green"
+msgstr "綠"
+
+#: addon\globalPlugins\AccessVPad\dialogs.py:31
+msgid "blue"
+msgstr "藍"
+
+#: addon\globalPlugins\AccessVPad\dialogs.py:32
+msgid "purple"
+msgstr "紫"
+
+#: addon\globalPlugins\AccessVPad\views.py:101
 msgid "&Menu"
 msgstr "功能表(&M)"
 
-#: addon\globalPlugins\AccessVPad\views.py:87
+#: addon\globalPlugins\AccessVPad\views.py:102
 msgid "&Exit"
 msgstr "離開(&E)"
 
-#: addon\globalPlugins\AccessVPad\views.py:87
+#: addon\globalPlugins\AccessVPad\views.py:102
 msgid "Terminate the program"
 msgstr "終止程式"
 
-#: addon\globalPlugins\AccessVPad\views.py:93
+#: addon\globalPlugins\AccessVPad\views.py:108
 msgid "pad"
 msgstr "pad"
 
-#: addon\globalPlugins\AccessVPad\views.py:127
+#: addon\globalPlugins\AccessVPad\views.py:129
 msgid "New pad"
 msgstr "新 pad"
 
-#: addon\globalPlugins\AccessVPad\views.py:133
+#: addon\globalPlugins\AccessVPad\views.py:135
 msgid "&Type:"
 msgstr "類型(&T)："
 
-#: addon\globalPlugins\AccessVPad\views.py:164
+#: addon\globalPlugins\AccessVPad\views.py:166
 msgid "New node"
 msgstr "新節點"
 
-#: addon\globalPlugins\AccessVPad\views.py:169
-#: addon\globalPlugins\AccessVPad\views.py:194
+#: addon\globalPlugins\AccessVPad\views.py:171
+#: addon\globalPlugins\AccessVPad\views.py:196
 msgid "&Label:"
 msgstr "標籤(&L)："
 
-#: addon\globalPlugins\AccessVPad\views.py:187
+#: addon\globalPlugins\AccessVPad\views.py:189
 msgid "New edge"
 msgstr "新邊"
 
-#: addon\globalPlugins\AccessVPad\views.py:197
+#: addon\globalPlugins\AccessVPad\views.py:199
 msgid "&Source:"
 msgstr "來源(&S)："
 
-#: addon\globalPlugins\AccessVPad\views.py:201
+#: addon\globalPlugins\AccessVPad\views.py:203
 msgid "&Target:"
 msgstr "目的(&T)："
 
-#: addon\globalPlugins\AccessVPad\views.py:219
+#: addon\globalPlugins\AccessVPad\views.py:221
 msgid "enter cell value"
 msgstr "輸入儲存格值"
 
-#: addon\globalPlugins\AccessVPad\views.py:244
+#: addon\globalPlugins\AccessVPad\views.py:246
 msgid "&Add"
 msgstr "加入(&A)"
 
-#: addon\globalPlugins\AccessVPad\views.py:248
+#: addon\globalPlugins\AccessVPad\views.py:250
 msgid "&Up Row"
 msgstr "上方列(&U)"
 
-#: addon\globalPlugins\AccessVPad\views.py:253
+#: addon\globalPlugins\AccessVPad\views.py:255
 msgid "&Down Row"
 msgstr "下方列(&D)"
 
-#: addon\globalPlugins\AccessVPad\views.py:258
+#: addon\globalPlugins\AccessVPad\views.py:260
 msgid "&Left Column"
 msgstr "左側行(&L)"
 
-#: addon\globalPlugins\AccessVPad\views.py:263
+#: addon\globalPlugins\AccessVPad\views.py:265
 msgid "&Right Column"
 msgstr "右側行(&L)"
 
-#: addon\globalPlugins\AccessVPad\views.py:270
+#: addon\globalPlugins\AccessVPad\views.py:272
 msgid "&Edit"
 msgstr "編輯(&E)"
 
-#: addon\globalPlugins\AccessVPad\views.py:275
+#: addon\globalPlugins\AccessVPad\views.py:277
 msgid "&Delete"
 msgstr "刪除(&D)"
 
-#: addon\globalPlugins\AccessVPad\views.py:279
+#: addon\globalPlugins\AccessVPad\views.py:281
 msgid "&Row"
 msgstr "列(&R)"
 
-#: addon\globalPlugins\AccessVPad\views.py:284
+#: addon\globalPlugins\AccessVPad\views.py:286
 msgid "&Column"
 msgstr "行(&C)"
 
@@ -255,6 +297,9 @@ msgstr "行(&C)"
 #: buildVars.py:26
 msgid "Allows write advanced logical data structure by keyboard"
 msgstr "Allows write advanced logical data structure by keyboard"
+
+#~ msgid "Object review"
+#~ msgstr "物件檢閱"
 
 #, fuzzy
 #~| msgid "Right"
@@ -305,9 +350,6 @@ msgstr "Allows write advanced logical data structure by keyboard"
 
 #~ msgid "&General settings..."
 #~ msgstr "一般設定(&G)"
-
-#~ msgid "&Rule settings..."
-#~ msgstr "規則設定(&R)"
 
 #~ msgid "&unicode dictionary..."
 #~ msgstr "&unicode 字典..."
@@ -373,9 +415,6 @@ msgstr "Allows write advanced logical data structure by keyboard"
 
 #~ msgid "&Item interval time:"
 #~ msgstr "項目間隔時間(&I)"
-
-#~ msgid "Rule Settings"
-#~ msgstr "規則設定"
 
 #~ msgid "Simplified subscript and superscript"
 #~ msgstr "簡化下標與上標"

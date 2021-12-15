@@ -1,7 +1,7 @@
 import addonHandler
 
 from csv import reader, writer
-from .models import Char, Str
+from .cells import Char, Str
 
 addonHandler.initTranslation()
 
