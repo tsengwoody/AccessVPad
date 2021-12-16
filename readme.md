@@ -47,12 +47,9 @@ There are currently 2 types of panels available, Plane and Table, both are grid-
 *	Num 1~9: Read out the content by line/word/character unit .
 *	NVDA + Num delete: Read out the column/row number of the current cell. Double click to read out the total column/row number of the total range.
 
-### 圖形介面選單
-AccessVPad 的圖形介面集中於工具->AccessVPad選單中
-* Pad：與 NVDA+alt+d 相同打開 AccessVPad 視窗
-* Browser：打開瀏覽器進行同步檢視當前面版視窗內容### Picture Platform Options
+### GUI menu
 
-The graphical interface of AccessVPad is concentrated in the Tools->AccessVPad menu
+GUI of AccessVPad is concentrated in the Tools->AccessVPad menu
 
 Pad: Press NVDA+Alt+D to activate the AccessVPad control panel.
 
