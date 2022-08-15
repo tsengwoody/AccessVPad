@@ -1,62 +1,67 @@
 # AccessVPad - ReadMe
 
-This addon provides a virtual 2 dimensional reading/writing pad, which derives from the concept of grid, and equipped with a variety of interactive functions via keyboard input and speech output. The current available text editor could only be edited in a letter-based, horizontal direction, which limits the readability and the expression in mathematics, especially the (2 dimensional) calculating procedure in vertical form, and hence makes communication and teaching inefficient for visually impaired people.
+AccessVPad serves as an add-on to provide an accessible virtual two-dimensional reading/writing pad, which derives from the concept of grid, and is equipped with a variety of interactive functions via keyboard input and speech output. 
 
-This addon aims to solve the limitation of the current available text editors by enabling calculations where (visual) vertical alignment is required (to be aligned vertically). For instance, in occasions of calculating unit conversion or polynomials, the 2 dimensional vertical calculator allows users to learn and express the arithmetic concept of carry or any occasions where vertical alignment could help to be delivered in a more intuitive and efficient way.
+The current available text editor could only be edited in a horizontal direction, which limits the readability and the expression in mathematics, especially when expressing the two-dimensional calculating procedure in a vertical form, and hence makes communication and teaching inefficient for visually impaired people.
 
-## Feature
+AccessVPad aims to solve the limitation of the current available text editors by enabling calculations where vertical alignment is required. For instance, in occasions of calculating unit conversion or polynomials, AccessVPad allows users to learn and express the arithmetic concept of carry or any occasions where vertical alignment could help deliver in a more intuitive and efficient way.
+
+## Features
 
 Press NVDA+Alt+D to activate the AccessVPad control panel.
 
-When there is no open tab in the panel, press the pad button to add a new tab, after choosing the type of the new panel, press enter to create a virtual writing tab. The virtual writing tab could be input via keyboard and output through speech.
+When there is no open pad, press the pad button to add a new pad. After choosing the type of the new pad, press enter to finish creating a virtual writing pad. The pad could be input via keyboard and output through speech.
 
-There are currently 2 types of panels available, Plane and Table, both are grid-based structures. The difference is whether it could be input with multiple letters in one cell. Plane could only allow one letter in each cell, whereas Table could deal with multiple letters in a cell. Hence, Plane is ideal for situations when visual alignment is based on letters, e.g. vertical addition or vertical multiplication, while Table is suitable for situations where visual alignment should be based on blocks, e.g. polynomial or determinant calculation.
+There are currently 2 types of pads available, Plane and Table, which are both grid-based structures. The difference is whether it could be input with multiple characters in one cell. Plane only allows one character in each cell; whereas Table could deal with multiple characters in a cell. Hence, Plane is ideal for situations when visual alignment is based on characters, e.g. vertical addition or vertical multiplication, while Table is suitable for situations where visual alignment should be based on blocks, e.g. polynomial or determinant calculation.
 
-### For Switching between window tabs: in reference to general keyboard shortcuts for multiple window application.
+## General Commands
 
-*	Ctrl + Up Arrow / Ctrl + Shift + tab : Switch backward one tab to the previous tab. When there is no previous tab, switch backward to the latest tab.
-*	Ctrl + Down Arrow / Ctrl +tab: Switch forward one tab to the next tab, when there is no next tab, switch forward to the very first tab.
-*	Ctrl + Num key (1~9): Switch to the tab according to ordinal number.
+### To Switch between pads: in reference to general keyboard shortcuts.
+
+*	Ctrl + Page Up / Ctrl + Shift + tab : Switch backward one pad to the previous pad. When there is no previous pad, switch backward to the latest pad.
+*	Ctrl + Page Down / Ctrl + tab : Switch forward one pad to the next pad, when there is no next pad, switch forward to the very first pad.
+*	Ctrl + Num key (1~9) : Switch to the pad according to ordinal number.
 
 ### Move: Read out the content when moving to a new cell.
 
-*	Up Arrow: Move the cursor one distance up. (column -1; row number stays the same)
-*	Down Arrow: Move the cursor one distance down. (column +1; row number stays the same)
-*	Left Arrow: Move the cursor one distance left. (column number stays the same; row -1)
-*	Right Arrow: Move the cursor one distance right (column number stays the same; row+1)
-*	home: Move the cursor to the leftmost cell in the same row.* end: Move the cursor to the rightmost cell in the same row.
-*	shift+home: Move the cursor to the very top cell in the same column.
-*	shift+end: Move the cursor to the bottom cell in the same column.
+*	Up Arrow: Move the cursor one distance up. (column number stays the same; row number -1)
+*	Down Arrow: Move the cursor one distance down. (column number stays the same; row number +1)
+*	Left Arrow: Move the cursor one distance left. (column number -1; row number stays the same)
+*	Right Arrow: Move the cursor one distance right (column number +1; row number stays the same)
+*	Home: Move the cursor to the leftmost cell in the same row.
+*	End: Move the cursor to the rightmost cell in the same row.
+*	Shift + Home: Move the cursor to the very top cell in the same column.
+*	Shift + End: Move the cursor to the bottom cell in the same column.
 
-### Update: To modify the content in a cell; to add/delete a column/row; to add/delete a tab
+### Update: To modify the content in a cell; to add/delete a column/row; to add/delete a pad
 
-*	EN or Num key: To input content from when the cursor locates.
+*	Character (EN or Num) keys: To input content from where the cursor locates.
 *	Alt + Up Arrow: To insert a new row above the cursor.
 *	Alt + Down Arrow: To insert a new row below the cursor.
-*	Alt + Left Arrow: To insert a column at the left side of the cursor.
-*	Alt + Right Arrow: To insert a column at the right side of the cursor.
-*	Alt + delete: To delete the row of the current cursor.
-*	Alt + shift + delete: To delete the column of the current cursor.
-*	Ctrl + n: To add a new tab.
+*	Alt + Left Arrow: To insert a new column at the left side of the cursor.
+*	Alt + Right Arrow: To insert a new column at the right side of the cursor.
+*	Alt + Delete: To delete the row of the current cursor.
+*	Alt + Shift + Delete: To delete the column of the current cursor.
+*	Ctrl + n: To add a new pad.
 *	Ctrl + o: To open a csv file on the computer.
 *	Ctrl + s: To save and export the file in csv format.
-*	Ctrl + w: To close the current tab.
+*	Ctrl + w: To close the current pad.
 
 ### Read
 
-*	Num 1~9: Read out the content by line/word/character unit .
-*	NVDA + Num delete: Read out the column/row number of the current cell. Double click to read out the total column/row number of the total range.
+*	Num key (1~9): Read out the content same as NVDA Reviewing text function
+*	NVDA+numpadDelete: Read out the column/row number of the current cell. Double *fast click* to read out the total column/row number of the total range.
 
-### GUI menu
+### GUI (Graphical User Interface) Menu
 
-GUI of AccessVPad is concentrated in the Tools->AccessVPad menu
+GUI of AccessVPad locates at Tools -> AccessVPad menu.
 
 Pad: Press NVDA+Alt+D to activate the AccessVPad control panel.
 
-Browser: Open browser to sync view the current tab in AccessVPad.
+Browser: Open browser to sync view the active pad in AccessVPad.
 
  Settings：
 
 *	Adjust the style of page on browser:
-	*	Show border of the cell
-	*	Hightlight color of the cell pointed to by cursor
+	*	Show the border of the total range.
+	*	Show where the cursor locates with the chosen highlighted colour. 
